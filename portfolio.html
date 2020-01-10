@@ -2,57 +2,81 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <title>Kevin Lee's recommended assignment index</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shirink-to-fit=no"
+    />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <title>Kevin Lee's assignment 2 index</title>
   </head>
 
   <body>
-    <header id="header">
+     <!-- Navbar Start-->
+
+     <nav class="navbar navbar-expand-sm bg-light navbar-light">
       <div class="container">
-        <h1 id="name">Kevin Lee</h1>
-        <nav>
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
+        <h1 id="name" class="navbar-brand bg-info text-white">Kevin Lee</h1>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+
+          <li class="nav-item border-left">
+            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+          </li>
+
+          <li class="nav-item border-left">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </nav>
 
     <div class="container">
+      <div class="row">
+        <div class="col-12 col-xs-10 col-sm-8 bg-light mx-auto my-4 p-4">
       <section class="games">
         <h2>Portfolio</h2>
 
         <hr />
 
         <div class="img-box">
-          <img src="./assets/images/chess.jpg" id="Chess" />
+          <img src="./assets/images/chess.jpg" id="Chess" height=200px width=200px/>
           <h3>Chess</h3>
         </div>
+      
 
         <div class="img-box">
-          <img src="./assets/images/janggi.jpg" id="Janggi" />
+          <img src="./assets/images/janggi.jpg" id="Janggi" height=200px width=200px/>
           <h3>Janggi</h3>
         </div>
+      
+    
 
         <div class="img-box">
-          <img src="./assets/images/doubleballroulette.jpg" id="Roulette" />
+          <img src="./assets/images/doubleballroulette.jpg" id="Roulette" height=200px width=200px/>
           <h3>Doubleballroulette</h3>
         </div>
+        
 
         <div class="img-box">
-          <img src="./assets/images/craps.jpg" id="Craps" />
+           <img src="./assets/images/craps.jpg" id="Craps" height=200px width=200px/>
           <h3>Craps</h3>
         </div>
+        
 
         <div class="img-box">
-          <img src="./assets/images/blackjack.jpg" id="Blackjack" />
+           <img src="./assets/images/blackjack.jpg" id="Blackjack" height=200px width=200px/>
           <h3>Blackjack</h3>
         </div>
-      </section>
-    </div>
+        
 
-    <footer>
-      Basic Portfolio : 12/21/19
-    </footer>
-  </body>
-</html>
+        <footer>
+          <div class="mx-auto text-center p-2 bg-dark text-white border border-info ">
+            Basic Portfolio : 01/07/20
+          </div>
+        </footer>
+      </body>
+    </html>
